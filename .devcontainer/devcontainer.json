@@ -11,7 +11,8 @@
       "settings": {
         "files.autoSave": "afterDelay",
         "editor.fontSize": 16,
-        "editor.wordWrap": "on"
+        "editor.wordWrap": "on",
+        "github.copilot.chat.localeOverride": "zh-TW"
       }
     },
     "codespaces": {
