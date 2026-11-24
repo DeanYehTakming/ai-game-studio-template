@@ -1,0 +1,21 @@
+{
+  "name": "AI 造物工坊",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "ms-vscode.live-server"
+      ],
+      "settings": {
+        "files.autoSave": "afterDelay",
+        "editor.fontSize": 16,
+        "editor.wordWrap": "on"
+      }
+    },
+    "codespaces": {
+      "openFiles": ["README.md", "spec.template.md", "index.html"]
+    }
+  }
+}
